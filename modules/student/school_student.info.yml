@@ -1,6 +1,6 @@
 name: School Student
 type: module
 description: Student.
-package: School
+package: School Management System
 version: VERSION
 core: 8.x
