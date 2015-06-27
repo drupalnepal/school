@@ -1,0 +1,5 @@
+drupal.school.toolbar:
+  version: VERSION
+  css:
+    theme:
+      css/school.icons.css: {}

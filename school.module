@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Module file for School Management System module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function school_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.school':
+      $output = '<h2>' . t('About') . '</h2>';
+      $output .= '<p>' . t('School Management System.') . '</p>';
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_toolbar().
+ */
+function school_toolbar() {
+  $items = [];
+  $items['school'] = [
+    '#type' => 'toolbar_item',
+    '#attached' => [
+      'library' => [
+        'school/drupal.school.toolbar',
+      ],
+    ],
+  ];
+
+  return $items;
+}

@@ -1,0 +1,4 @@
+school.student:
+  path: 'admin/school/student'
+  defaults:
+    _title: 'Student'

@@ -1,0 +1,24 @@
+/**
+ * @file
+ * Styling for school toolbar icons.
+ */
+
+/* Bar formatting */
+.toolbar-bar .toolbar-icon-school-settings:before {
+  background-image: url("../icons/student.png");
+}
+
+.toolbar-bar .toolbar-icon-school-settings:active:before,
+.toolbar-bar .toolbar-icon-school-settings.active:before {
+  background-image: url("../icons/student.png");
+}
+
+/* Tray formatting */
+.toolbar .toolbar-tray .toolbar-icon.toolbar-icon-school-settings:before {
+  background-image: url("../icons/student.png");
+}
+
+.toolbar .toolbar-tray .toolbar-icon.toolbar-icon-school-settings:active:before,
+.toolbar .toolbar-tray .toolbar-icon.toolbar-icon-school-settings.active:before {
+  background-image: url("../icons/student.png");
+}

@@ -1,0 +1,7 @@
+school.settings:
+  path: 'admin/school'
+  defaults:
+    _title: 'School'
+    # _form: '\Drupal\school\Form\SchoolSettingsForm'
+  # requirements:
+    # _permission: 'administer school'

@@ -1,0 +1,6 @@
+school.settings:
+  title: School
+  description: 'School Management System.'
+  route_name: school.settings
+  parent: system.admin
+  weight: -12
