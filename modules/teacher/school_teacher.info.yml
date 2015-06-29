@@ -1,0 +1,8 @@
+name: School Teacher
+type: module
+description: Teacher.
+package: School Management System
+version: VERSION
+core: 8.x
+dependencies:
+  - school

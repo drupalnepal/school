@@ -1,0 +1,5 @@
+school.teacher:
+  route_name: school.teacher
+  parent: school.settings
+  title: teacher
+  weight: -10

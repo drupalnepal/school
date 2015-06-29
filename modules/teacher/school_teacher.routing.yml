@@ -1,0 +1,4 @@
+school.teacher:
+  path: 'admin/school/teacher'
+  defaults:
+    _title: 'Teacher'
